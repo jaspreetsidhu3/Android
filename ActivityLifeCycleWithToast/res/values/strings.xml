@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToastwithActivityCycleDEmo</string>
+    <string name="text">Hello ActivityCycle</string>
+    <string name="b">developer</string>
+</resources>
