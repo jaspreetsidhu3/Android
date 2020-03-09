@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="23dp"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/fragmentview"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        android:layout_centerInParent="true"></RelativeLayout>
+    <Button
+        android:id="@+id/buttonstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/buttonpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paper"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/buttonscissor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scissor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
